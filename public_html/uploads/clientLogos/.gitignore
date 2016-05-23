@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!no_image.jpg 
+
+# ...even if they are in subdirectories
+!*/
