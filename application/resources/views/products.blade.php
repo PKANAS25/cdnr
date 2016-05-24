@@ -26,7 +26,7 @@
                 </div>
                 <div id="collapse-1" class="panel-collapse collapse in">
                   <div class="panel-body">
-                  <li>Dolomite</li>
+                 <!--  <li>Dolomite</li>
                   <li>Costic Shoda(enik sodann parayan areelalo)</li>
                   <li>Sodium meta bi sulphate</li>
                   <li>Rbd palm</li>
@@ -35,7 +35,8 @@
                   <li>reprehenderit in voluptate</li> 
                   <li>velit esse cillum dolore eu fugiat</li>
                    <li>nulla pariatur.</li> 
-                   <li>The point of</li> 
+                   <li>The point of</li>  -->
+                   <li>Coming Soon..</li>
                   </div>
                 </div>
               </div>
@@ -52,7 +53,8 @@
 									</h4>
                 </div>
                 <div id="collapse-2" class="panel-collapse collapse">
-                  <div class="panel-body"><li>weba Duis aute irure dolor in</li>
+                  <div class="panel-body">
+                  <!-- <li>weba Duis aute irure dolor in</li>
                   <li>reprehenderit in voluptate</li> 
                   <li>velit esse cillum dolore eu fugiat</li>
                    <li>nulla pariatur.</li> 
@@ -60,33 +62,14 @@
                    <li>using Lorem Ipsum is</li> <li>that it has a </li> 
                    <li>normal distribution of letters,</li> 
                    <li>as opposed to using </li> 
-                   <li>making it look like </li></div>
+                   <li>making it look like </li> -->
+                   <li>Coming Soon..</li>
+                   </div>
                 </div>
               </div>
               <!-- End Toggle 2 -->
 
-              <!-- Start Toggle 3 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse-3" class="collapsed">
-											<i class="fa fa-angle-down control-icon"></i>
-											Petroleum Products
-										</a>
-									</h4>
-                </div>
-                <div id="collapse-3" class="panel-collapse collapse">
-                  <div class="panel-body"><li>Dow reprehenderit in voluptate</li> 
-                  <li>velit esse cillum dolore eu fugiat</li>
-                   <li>nulla pariatur.</li> 
-                   <li>The point of</li> 
-                   <li>using Lorem Ipsum is</li> <li>that it has a </li> 
-                   <li>normal distribution of letters,</li> 
-                   <li>as opposed to using </li> 
-                   <li>making it look like </li></div>
-                </div>
-              </div>
-              <!-- End Toggle 3 -->
+              
               
                <!-- Start Toggle 4 -->
               <div class="panel panel-default">
@@ -100,7 +83,7 @@
                 </div>
                 <div id="collapse-4" class="panel-collapse collapse">
                   <div class="panel-body">
-                  <li>mane nulla pariatur.</li>
+                  <!-- <li>mane nulla pariatur.</li>
                   <li>reprehenderit in voluptate</li> 
                   <li>velit esse cillum dolore eu fugiat</li>
                    <li>nulla pariatur.</li> 
@@ -108,10 +91,38 @@
                    <li>using Lorem Ipsum is</li> <li>that it has a </li> 
                    <li>normal distribution of letters,</li> 
                    <li>as opposed to using </li> 
-                   <li>making it look like </li></div>
+                   <li>making it look like </li> -->
+                   <li>Coming Soon..</li>
+                   </div>
                 </div>
               </div>
               <!-- End Toggle 4 -->
+
+              <!-- Start Toggle 3 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3" class="collapsed">
+                      <i class="fa fa-angle-down control-icon"></i>
+                     Miscellaneous
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse-3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                  <!-- <li>Dow reprehenderit in voluptate</li> 
+                  <li>velit esse cillum dolore eu fugiat</li>
+                   <li>nulla pariatur.</li> 
+                   <li>The point of</li> 
+                   <li>using Lorem Ipsum is</li> <li>that it has a </li> 
+                   <li>normal distribution of letters,</li> 
+                   <li>as opposed to using </li> 
+                   <li>making it look like </li> -->
+                   <li>Coming Soon..</li>
+                   </div>
+                </div>
+              </div>
+              <!-- End Toggle 3 -->
 
             </div>
             <!-- End Toggle -->
@@ -134,7 +145,7 @@
             <div class="widget widget-categories">
               <h4>Exclusive Products <span class="head-line"></span></h4>
               <ul>
-                <li>
+                <!-- <li>
                   <a href="#">Martinic Acid</a>
                 </li>
                 <li>
@@ -145,7 +156,8 @@
                 </li>
                 <li>
                   <a href="#">Repeat avoider</a>
-                </li>
+                </li> -->
+                <li><a href="#">Coming Soon</a></li>
               </ul>
             </div>
 

@@ -19,6 +19,12 @@ class PagesController extends Controller
 
         return view('home',compact('pager'));
     }
+     public function sitemap()
+    {
+        $pager = '';
+
+        return view('sitemap',compact('pager'));
+    }
 
      
     public function about()

@@ -17,6 +17,7 @@ Route::get('/products', 'PagesController@products');
 Route::get('/careers', 'PagesController@careers');
 Route::get('/contact', 'PagesController@contact');
 Route::post('/contact', 'PagesController@contactSend');
+Route::get('/sitemap', 'PagesController@sitemap');
 
 
 Route::get('/hrm', 'Auth\AuthController@getLogin');

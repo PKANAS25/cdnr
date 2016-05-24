@@ -147,8 +147,8 @@
             </div>
             <div class="col-md-6">
               <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li> 
-                <li><a href="#">Contact</a></li>
+                <li><a href="sitemap">Sitemap</a></li> 
+                <li><a href="contact">Contact</a></li>
               </ul>
             </div>
           </div>

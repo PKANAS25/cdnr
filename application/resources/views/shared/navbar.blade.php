@@ -12,9 +12,9 @@
             
             <!-- Start Navigation List -->
             <ul class="nav navbar-nav navbar-right">
-              <li><a @if($pager=='home') class="active" @endif href="home">Home</a></li>
+              <li><a @if($pager=='home') class="active" @endif href="/">Home</a></li>
               <li><a @if($pager=='about') class="active" @endif href="about">About</a></li>
-              <li><a @if($pager=='products') class="active" @endif href="#">Products</a></li>
+              <li><a @if($pager=='products') class="active" @endif href="products">Products</a></li>
               <li><a @if($pager=='careers') class="active" @endif href="careers">Careers</a></li>
               <li><a @if($pager=='contact') class="active" @endif href="contact">Contact</a></li>
             </ul>
@@ -24,9 +24,9 @@
 
         <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
-          	  <li><a @if($pager=='home') class="active" @endif href="home">Home</a></li>
+          	  <li><a @if($pager=='home') class="active" @endif href="/">Home</a></li>
               <li><a @if($pager=='about') class="active" @endif href="about">About</a></li>
-              <li><a @if($pager=='products') class="active" @endif href="#">Products</a></li>
+              <li><a @if($pager=='products') class="active" @endif href="products">Products</a></li>
               <li><a @if($pager=='careers') class="active" @endif href="careers">Careers</a></li>
               <li><a @if($pager=='contact') class="active" @endif href="contact">Contact</a></li>
         </ul>
