@@ -358,6 +358,7 @@ class ClientsController extends Controller
                  $historyString = $historyString."Logo Changed";
                 } 
 
+                if($historyString)
                 DB::table('clientsHistory')->insert(['client_id' => $clientId,'admin' => Auth::id(),'changes' => $historyString,'dated' => Carbon::now()]);
 
                return redirect()->action('ClientsController@profile',base64_encode($clientId))->with('status', 'Editted succesfully!');
