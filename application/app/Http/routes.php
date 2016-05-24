@@ -19,6 +19,10 @@ Route::get('/contact', 'PagesController@contact');
 Route::post('/contact', 'PagesController@contactSend');
 Route::get('/sitemap', 'PagesController@sitemap');
 
+Route::get('/sitemapxml', function()
+{
+   return Response::view('sitemapxml')->header('Content-Type', 'application/xml');
+});
 
 Route::get('/hrm', 'Auth\AuthController@getLogin');
 Route::post('/hrm', 'Auth\AuthController@authenticate');

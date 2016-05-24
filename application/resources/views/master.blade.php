@@ -6,7 +6,7 @@
 <head>
 
   <!-- Basic -->
-  <title>CDN Routers</title>
+  <title>CDN Routers - Chemical Suppliers Calicut,Palakkad, Kerala</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Page Description and Author -->
-  <meta name="description" content="CDN Routers - The Distribution Company">
+  <meta name="description" content="CDN Routers is a distribution company supplying a range of chemicals used across many industries. CDN is headquartered in Calicut with sales and distribution locations in Calicut and Palakkad,Kerala.">
   <meta name="author" content="CDN Routers">
   <link rel="SHORTCUT ICON"  href="images/favicon-32x32.png" />
   <!-- Bootstrap CSS  -->
