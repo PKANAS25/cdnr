@@ -67,7 +67,7 @@ session(['subtitle' => 'designations']); ?>
                                     <tr>
                                         <th class="nosort">#</th>
                                        
-                                        <th>Industry</th>
+                                        <th>Position </th>
                                          
                                     </tr>
                                 </thead>
