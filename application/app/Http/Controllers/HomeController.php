@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use DB;
+use App\Client;
+use App\Contact;
+use App\ClientCall;
+
+use Auth;
+
 class HomeController extends Controller
 {
     /**
@@ -16,7 +23,21 @@ class HomeController extends Controller
      */
     public function home()
     {
-         return view('hr.dashboard');
+         $dated = date('Y-m-d', strtotime("-15 days"));
+         $today = date('Y-m-d');
+         $totalClients = Client::where('deleted',0)->count();
+         $newClients = Client::where('created_at','>',$dated)->count();
+         $totalContacts = Contact::where('deleted',0)->count();
+         $newCalls = ClientCall::whereRaw("created_at LIKE '%".$today."%'")->count(); 
+         
+         $industries = DB::table('clients')
+                 ->select('industry', DB::raw('count(*) as counter'),'industries.name AS industryName')
+                 ->leftjoin('industries','clients.industry', '=', 'industries.id')
+                 ->where('deleted',0)
+                 ->groupBy('industry')
+                 ->get();
+ 
+         return view('hr.dashboard',compact('totalClients','newClients','totalContacts','newCalls','industries'));    
     }
 
     /**

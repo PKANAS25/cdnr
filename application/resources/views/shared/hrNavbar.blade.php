@@ -64,8 +64,12 @@
                             <span>Settings</span>
                         </a>
                         <ul class="sub-menu">
-                            @if( Auth::user()->hasRole('ClientAdd'))<li @if(session('subtitle') == 'industries') class="active" @endif><a href="/hrm/settings/industries">Industries</a></li>@endif
-                            @if( Auth::user()->hasRole('ContactAdd'))<li @if(session('subtitle') == 'designations') class="active" @endif><a href="/hrm/settings/designations">Contact Positions</a></li>@endif
+                            @if( Auth::user()->hasRole('ClientAdd')) 
+                            <li @if(session('subtitle') == 'industries') class="active" @endif><a href="/hrm/settings/industries">Industries</a></li>
+                            @endif
+                            @if( Auth::user()->hasRole('ContactAdd'))
+                            <li @if(session('subtitle') == 'designations') class="active" @endif><a href="/hrm/settings/designations">Contact Positions</a></li>
+                            @endif
                         </ul>
                     </li>
                     @endif
